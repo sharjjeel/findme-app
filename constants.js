@@ -1,0 +1,8 @@
+export const INCREASE = 'INCREASE'
+export const DECREASE = 'DECREASE'
+export const SIGN_IN = 'SIGN_IN'
+export const LOGOUT = 'LOGOUT'
+export const CREATE_USER = 'CREATE_USER'
+export const ADD_ITEM = 'ADD_ITEM'
+export const CHANGE_ITEM_STATUS = 'CHANGE_ITEM_STATUS'
+export const DELETE_ITEM = 'DELETE_ITEM'
