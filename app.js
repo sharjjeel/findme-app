@@ -10,7 +10,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
 import * as reducers from './reducers'
-import { App, Home, Foo, Bar } from './components'
+import { App, Home, Foo, Contact, Session } from './components'
 
 const reducer = combineReducers({
   ...reducers,
@@ -36,7 +36,8 @@ ReactDOM.render(
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
           <Route path="foo" component={Foo}/>
-          <Route path="bar" component={Bar}/>
+          <Route path="contact" component={Contact}/>
+          <Route path="session" component={Session}/>
         </Route>
       </Router>
       <DevTools />

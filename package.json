@@ -4,8 +4,8 @@
   "repository": "reactjs/react-router-redux",
   "license": "MIT",
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "react-redux": "^4.3.0",
     "react-router": "^2.0.0",
     "redux": "^3.2.1",
@@ -26,7 +26,11 @@
     "redux-devtools-log-monitor": "^1.0.4",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1",
-    "immutable":"^3.8.1"
+    "immutable":"^3.8.1",
+    "simple-react-form": "^1.7.7",
+    "simple-react-form-material-ui": "^1.7.4",
+    "material-ui": "^0.15.2",
+    "react-tap-event-plugin": "^1.0.0"
   },
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --no-info --open"

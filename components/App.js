@@ -9,9 +9,11 @@ export default function App({ children }) {
         {' '}
         <Link to="/">Home</Link>
         {' '}
+        <Link to="/session">Session</Link>
+        {' '}
         <Link to="/foo">Foo</Link>
         {' '}
-        <Link to="/bar">Bar</Link>
+        <Link to="/contact">Contact</Link>
       </header>
       <div>
         <button onClick={() => browserHistory.push('/foo')}>Go to /foo</button>
